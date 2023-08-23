@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #edf0f5;
+}
+
+header {
+    height: 80px;
+    background-color: #3b5999;
+    padding: 10px;
+}
+
+.logo {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    position: relative;
+    margin-left: 20rem;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -110px;
+    padding-right: 11rem;
+    color: aliceblue;
+    font-family: sans-serif;
+    position: relative;
+    margin-left: 20rem;
+}
+
+.form-group input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f5ffb9;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-group1 input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-right: 13px;
+    background-color: #f5ffb9;
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-group label {
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.form-group1 label {
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+button {
+    background-color: #5d71a6;
+    border: solid #66676a 1px;
+    padding: 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.click {
+    position: relative;
+    top: 1.7rem;
+    left: 1.5rem;
+    
+}
+
+.intro {
+    color: black;
+    font-family: sans-serif;
+}
+
+p, h2, .gender {
+    color: black;
+}
+
+.right {
+    float: right;
+}
+
+.check {
+    position: relative;
+    top: 55px;
+    font-size: 12px;
+    color: #cacbcd;
+    right: 25rem;
+}
+
+.check input {
+    position: relative;
+    top: 2px;
+    right: 7.7rem;
+}
+
+.forgot {
+    position: relative;
+    top: 49px;
+    font-size: 12px;
+    right: 22rem;
+}
+
+.forgot a {
+    color: #cacbcd;
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 2rem;
+    margin: 0px auto;
+    padding: 0px 4rem;
+    position: relative;
+    margin-left: 16.5rem;
+    top: 6rem;
+    font-weight: bolder;
+    color: #33373a;
+}
+
+.idk {
+    position: relative;
+    margin-left: 23rem;
+    top: 10rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #33373a;
+}
+
+.grey {
+    color: grey;
+}
+
+.ulo { 
+    position: relative;
+    bottom: 18rem;
+    font-family: sans-serif;
+    margin-left: 145rem;
+}
+
+.sign {
+    font-size: 3rem;
+    color: #33373a;
+    
+}
+
+.free {
+    color: #5c5e61;
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.first-name, .last-name {
+    position: relative;
+    padding-right: 11px;
+    bottom: 12rem;
+    right: -125rem;
+
+}
+
+.first-name input,
+.last-name input {
+    padding: 10px 1rem;
+    height: 2rem;
+    font-size: 20px;
+    padding: 7px;
+    border: solid gray 2px;
+    border-radius: 5px;
+}
+
+.email {
+    position: relative;
+    padding-right: 10px;
+    bottom: 8rem;
+    left: 91rem;
+}
+
+.email input {
+    height: 2rem;
+    width: 32.2rem;
+    font-size: 20px;
+    padding: 7px;
+    border: solid gray 2px;
+    border-radius: 5px;
+}
+
+.confirm-email {
+    position: relative;
+    bottom: 4rem;
+    right: -57rem;
+}
+
+.confirm-email input {
+    width: 32.2rem;
+    height: 2rem;
+    font-size: 20px;
+    padding: 7px;
+    border: solid gray 2px;
+    border-radius: 5px;
+}
+
+.pass {
+    position: relative;
+    left: 23.7rem;
+}
+
+.pass input {
+    height: 2rem;
+    width: 32.2rem;
+    font-size: 20px;
+    padding: 7px;
+    border: solid gray 2px;
+    border-radius: 5px;
+}
+
+.birth {
+    position: relative;
+    top: 2.5rem;
+    font-size: 1.2rem;
+    right: 9.5rem;
+}
+
+#birth {
+    color: #33373a;
+}
+
+.bday {
+    width: 4.3rem;
+    padding-left: 5px;
+    border: gray 1px solid;
+    border-radius: 5px;
+    background-color: #dedee0;
+    font-size: 0.9rem;
+    height: 2.5rem;
+    font-weight: bold;
+    padding-left: 0;
+
+}
+
+#day {
+    position: relative;
+    right: 18.5rem;
+    top: 6.5rem;
+}
+
+#year {
+    position: relative;
+    right: 18.8rem;
+    top: 6.5rem;
+}
+
+#month {
+    position: relative;
+    right: 19.2rem;
+    top: 6.5rem;
+}
+
+.need {
+    text-decoration: none;
+}
+
+#why {
+    width: 11rem;
+    position: relative;
+    left: -4rem;
+    top: 3.3rem;
+    font-size: 0.9rem;
+}
+
+.gender input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.gender {
+    font-size: 1.3rem;
+    right: 18.5rem;
+    top: 4rem;
+    position: relative;
+}
+
+.birth {
+    width: 9rem;
+}
+
+.rules {
+    color: #5c5e61;
+    width: 24rem;
+    height: 1rem;
+    position: relative;
+    left: -18.5rem;
+    top: 4.5rem;
+}
+
+#signup-button {
+    background-color: #619e47;
+    padding: 0.8rem 5rem;
+    border: #bad5b8 solid 2px;
+    border-radius: 10px;
+    position: relative;
+    top: 7.5rem;
+    right: 18.6rem;
+    cursor: pointer;
+}
+
+.click-up {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root">
+        <header>
+            <h1 class="logo">facebook</h1>
+            <form class="login-form">
+                <div class="form-group1">
+                    <label for="username">Email or Phone</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="click">
+                    <button type="submit">Log In</button>
+                </div>
+                <div class="check">
+                    <label for="checkbox">Keep me logged in</label>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                </div>
+                <div class="forgot">
+                    <p><a href="#">Forgot your password?</a></p>
+                </div>
+            </form>
+        </header>
+        
+        <section>
+            <div class="main">
+                <div class="left">
+                    <h1 class="intro">Connect with friends and the <br> world around you on the Facebook.</h1>
+                </div>
+                <div class="idk">
+                    <p class="photo"><strong>See photos and updates </strong><span class="grey">from friends in News Feed</span></p>
+                    <p class="share"><strong>Share what's new</strong> <span class="grey">in your life on your timeline</span></p>
+                    <p class="find"><strong>Find more</strong> <span class="grey">of what you're looking with graph search</span></p>
+                </div>
+                
+                <div class="right">
+                    <div class="ulo">
+                        <h1 class="sign">Sign Up</h1>
+                        <p class="free">It's free and always will be</p>
+                    </div>
+                    
+                    <form class="signup-form">
+                            <div class="first-name">
+                                <label for="first-name"></label>
+                                <input type="text" id="username" name="username" placeholder="First name" required>
+                            </div>
+                            <div class="last-name">
+                                <label for="last-name"></label>
+                                <input type="text" id="username" name="username" placeholder="Last name" required>
+                            </div>
+                        
+                        <div class="email">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email or mobile number" required>
+                        </div>
+                        <div class="confirm-email">
+                            <label for="confirm-email"></label>
+                            <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Email or mobile number" required>
+                        </div>
+                        <div class="pass">
+                            <label for="password"></label>
+                            <input type="password" id="password" name="password" placeholder="New password" required>
+                        </div>
+                        <div class="birth">
+                            <h2 id="birth">Birthday</h2>
+                        </div>
+                        <div class="opt">
+                            <select id="day" name="birthday" class="bday">
+                                <option disabled selected value id="text">Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                              <select id="year" name="birthday" class="bday">
+                                <option disabled selected value>Year</option>
+                                <option value="1">2023</option>
+                                <option value="2">2022</option>
+                                <option value="3">2021</option>
+                                <option value="4">2020</option>
+                                <option value="5">2019</option>
+                                <option value="6">2018</option>
+                                <option value="7">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                              </select>
+                              <select id="month" name="month" class="bday">
+                                <option disabled selected value>Month</option>
+                                <option value="01">January</option>
+                                <option value="02">February</option>
+                                <option value="03">March</option>
+                                <option value="04">April</option>
+                                <option value="05">May</option>
+                                <option value="06">June</option>
+                                <option value="07">July</option>
+                                <option value="08">August</option>
+                                <option value="09">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                              </select>
+
+                              <div class="why">
+                                <p id="why"><a href="#" class="need">Why do I need to provide my birthday?</a></p>
+                              </div>
+    
+                              <label class="gender">
+                                <input type="radio" name="gender" value="male">
+                                Female
+                              </label>
+                              
+                              <label class="gender" id="female">
+                                <input type="radio" name="gender" value="female">
+                                Male
+                              </label>
+    
+                              <p class="rules">By clicking Sign Up, you agree to our <span><a href="">Terms</a></span> and that you have read our <span><a href=""> Data Use Policy, </a></span>including our <span><a href="">Cookie Use.</a></span></p>
+    
+                                <div class="pindot">
+                                    <button type="submit" id="signup-button" name="signup-button" class="signup-button-class"><span class="click-up">Sign Up</span></button>
+                                </div>
+                        </div>
+                    </form> 
+                </div>
+            </section>
+         </div>
+    </div>
+    
+</body>
+</html>
